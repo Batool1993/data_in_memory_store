@@ -1,0 +1,18 @@
+# Build artifacts
+/bin/
+
+# Vendored dependencies (if you ever vendor)
+/vendor/
+
+# Env file
+.env
+
+# IDE/project files
+.idea/
+
+# Editor temp files
+*.swp
+*.tmp
+
+# macOS Finder files
+.DS_Store

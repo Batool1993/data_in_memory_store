@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  datastore:
+    build: .
+    ports:
+      - "8080:8080"
+    env_file:
+          - .env
+    environment:
+      STORE_DEFAULT_TTL: "60s"
+      CLEANUP_INTERVAL: "300s"
+      STORE_API_TOKEN: "my-secret-token"
